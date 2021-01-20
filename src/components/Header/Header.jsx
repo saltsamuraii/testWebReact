@@ -1,8 +1,9 @@
 import React from 'react';
 import s from './Header.module.css'
+import DoubleArrow from '../../icons/DoubleArrow.svg'
 
 
-const Header = () => {
+export const Header = () => {
     return (
         <div className={s.bg}>
             <nav className={s.nav}>
@@ -11,15 +12,10 @@ const Header = () => {
                 <a className={s.navLink} href="">Portfolio</a>
                 <a className={s.navLink} href="">Contact</a>
             </nav>
-            <div >
+            <div className={s.content}>
                 <h1 className={s.text}>scroll down to see more</h1>
-
-                {/*Проблема тут
-                    <img src="./../../assets/doubleArrow.svg" alt=""/>*/}
-
+                <img src={DoubleArrow} alt="scroll down" />
             </div>
         </div>
     );
 };
-
-export default Header;

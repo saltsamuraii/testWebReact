@@ -1,27 +1,26 @@
 .bg {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-
-    height: 1080px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: flex-end;
+    height: 100vh;
     background: url("./../../assets/bg.jpg") center no-repeat;
     background-size: cover;
 }
 
 .nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
     margin: 0 50px;
     padding: 0;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    border-bottom: 1px solid #fff;
 }
 
-.navLink {
-    margin: 40px 30px;
 
+.navLink {
+    padding: 40px 30px;
+    border-bottom: 1px solid #f1f1f1;
+
+    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
 
@@ -31,6 +30,10 @@
     color: #f1f1f1;
 
     cursor: pointer;
+}
+.navLink:hover {
+    color: #dddddd; /* не знаю цвет */
+    border-color: #dddddd; /* не знаю цвет */
 }
 
 .text {
@@ -44,4 +47,14 @@
     font-size: 18px;
 
     color: #f1f1f1;
+}
+
+.content {
+    display: grid;
+    place-items: center;
+    
+    user-select: none;
+    
+    grid-gap: 10px; /* не знаю размер */
+    padding-bottom: 10px; /* не знаю размер */
 }
