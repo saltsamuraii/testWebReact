@@ -1,0 +1,52 @@
+.bg {
+    height: 1080px;
+    background: url("./../../assets/bg.jpg") center no-repeat;
+    background-size: cover;
+
+    position: relative;
+}
+
+.nav {
+    margin: 0 50px;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border-bottom: 1px solid #fff;
+}
+
+.navLink {
+    margin: 40px 30px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #f1f1f1;
+
+    cursor: pointer;
+}
+
+.text {
+    margin:0;
+    padding: 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    font-family: "Open Sans",sans-serif;
+    font-size: 18px;
+
+    color: #f1f1f1;
+}
+
+.content {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate3d(-50%, -100%, 0);
+}
