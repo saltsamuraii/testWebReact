@@ -1,0 +1,25 @@
+.nav {
+    margin: 0 50px;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    border-bottom: 1px solid #bebebe;
+}
+
+.navLink {
+    margin: 40px 30px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: NexaLight, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #bebebe;
+
+    cursor: pointer;
+}
+

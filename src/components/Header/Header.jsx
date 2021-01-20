@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './../Header/Header.module.css'
+import s from './Header.module.css'
 
 
 const Header = () => {
@@ -11,9 +11,12 @@ const Header = () => {
                 <a className={s.navLink} href="">Portfolio</a>
                 <a className={s.navLink} href="">Contact</a>
             </nav>
-            <div className={s.content}>
+            <div >
                 <h1 className={s.text}>scroll down to see more</h1>
-                <img src="./../../assets/doubleArrow.svg" alt=""/>
+
+                {/*Проблема тут
+                    <img src="./../../assets/doubleArrow.svg" alt=""/>*/}
+
             </div>
         </div>
     );

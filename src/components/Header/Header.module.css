@@ -1,9 +1,11 @@
 .bg {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
     height: 1080px;
     background: url("./../../assets/bg.jpg") center no-repeat;
     background-size: cover;
-
-    position: relative;
 }
 
 .nav {
@@ -42,11 +44,4 @@
     font-size: 18px;
 
     color: #f1f1f1;
-}
-
-.content {
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate3d(-50%, -100%, 0);
 }
