@@ -6,12 +6,14 @@ import DoubleArrow from "../../icons/DoubleArrow.svg";
 export const About = () => {
     return (
         <div className={s.about}>
-            <nav className={s.nav}>
-                <a className={s.navLink} href="">Home</a>
-                <a className={s.navLink} href="">About Me</a>
-                <a className={s.navLink} href="">Portfolio</a>
-                <a className={s.navLink} href="">Contact</a>
-            </nav>
+            <div className={s.container}>
+                <nav className={s.nav}>
+                    <a className={s.navLink} href="">Home</a>
+                    <a className={s.navLink} href="">About Me</a>
+                    <a className={s.navLink} href="">Portfolio</a>
+                    <a className={s.navLink} href="">Contact</a>
+                </nav>
+            </div>
             <section className={s.about__content}>
                 <img className={s.about__img} src={author} alt="authorPhoto"/>
                 <div>

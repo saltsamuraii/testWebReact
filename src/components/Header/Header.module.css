@@ -10,7 +10,7 @@
 
 .nav {
     display: grid;
-    grid-template-columns: repeat(4, 15%);
+    grid-template-columns: repeat(4, 1fr);
     place-content: center center;
 
     margin: 0 50px;
